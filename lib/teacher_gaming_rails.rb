@@ -1,0 +1,3 @@
+module TeacherGamingRails
+  # Your code goes here...
+end
