@@ -1,4 +1,4 @@
-# TeacherGamingRails
+# TeacherGaming
 Short description and motivation.
 
 ## Usage
@@ -8,7 +8,7 @@ How to use my plugin.
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'teacher_gaming_rails'
+gem 'teacher_gaming_ruby'
 ```
 
 And then execute:
@@ -18,7 +18,7 @@ $ bundle
 
 Or install it yourself as:
 ```bash
-$ gem install teacher_gaming_rails
+$ gem install teacher_gaming_ruby
 ```
 
 ## Contributing

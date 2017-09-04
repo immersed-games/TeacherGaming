@@ -1,4 +1,4 @@
 # desc "Explaining what the task does"
-# task :teacher_gaming_rails do
+# task :teacher_gaming do
 #   # Task goes here
 # end

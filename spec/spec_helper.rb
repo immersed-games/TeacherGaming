@@ -2,7 +2,7 @@ ENV["RAILS_ENV"] ||= 'test'
 
 require File.expand_path('../dummy/config/environment.rb',  __FILE__)
 require 'rspec/rails'
-# require 'rspec/its'
+Dir[File.expand_path('../../spec/support/*.rb', __FILE__)].each { |file| require file }
 
 RSpec.configure do |config|
   # rspec-expectations config goes here. You can use an alternate
@@ -27,6 +27,8 @@ RSpec.configure do |config|
     # `true` in RSpec 4.
     mocks.verify_partial_doubles = true
   end
+
+  config.include CredentialHelper
 
   # This option will default to `:apply_to_host_groups` in RSpec 4 (and will
   # have no way to turn it off -- the option exists only for backwards
