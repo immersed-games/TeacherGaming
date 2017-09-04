@@ -3,6 +3,7 @@ module TeacherGaming
   require 'active_support/all'
 
   # Core
+  require 'teacher_gaming/cli'
   require 'teacher_gaming/api_definitions'
   require 'teacher_gaming/endpoints'
   require 'teacher_gaming/response'

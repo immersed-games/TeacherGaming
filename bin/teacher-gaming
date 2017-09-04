@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require 'teacher_gaming/cli'
+
+TeacherGaming::CLI.start
