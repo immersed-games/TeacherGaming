@@ -3,21 +3,18 @@
     "attributes": [ "studentid", "classid" ],
     "methods": {
       "create": {
-        "scope": "class",
         "anonymous": "false",
         "type": "get",
         "path": "/validate",
         "params": [ "studentid", "classid" ]
       },
       "update": {
-        "scope": "all",
         "anonymous": "false",
         "type": "get",
         "path": "/playing_game",
         "params": [ "studentid", "classid" ]
       },
       "destroy": {
-        "scope": "instance",
         "anonymous": "false",
         "type": "get",
         "path": "/logout_student",
@@ -29,14 +26,12 @@
     "attributes": [ "studentid", "classid" ],
     "methods": {
       "update": {
-        "scope": "all",
         "anonymous": "false",
         "type": "get",
         "path": "/update_state",
         "params": [ "studentid", "classid", "state" ]
       },
       "update_detailed": {
-        "scope": "all",
         "anonymous": "false",
         "type": "get",
         "path": "/update_state_detailed",
@@ -48,14 +43,12 @@
     "attributes": [ "studentid", "classid" ],
     "methods": {
       "create": {
-        "scope": "all",
         "anonymous": "false",
         "type": "get",
         "path": "/update_state",
         "params": [ "eventname", "classid", "sudentid", "duration" ]
       },
       "anonymous_create": {
-        "scope": "all",
         "anonymous": "true",
         "type": "get",
         "path": "/update_state",
