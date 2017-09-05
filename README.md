@@ -40,9 +40,9 @@ session.create                                                                  
 
 Some requests can be given an arbitrary number of attributes like the Event endpoints. Their corresponding objects can similarly receive and hold an arbitraty number of attributes:
 ```ruby
-event = TeacherGaming::Event.new(studentid: 'mystudentid', classid: 'myclassid', eventname: 'LevelCompletion', levelid: 4)         #=> TeacherGaming::Event object
-event.levelid       #=> 4
-event.create        #=> TeacherGaming::Response object
+event = TeacherGaming::Event.new(studentid: 'mystudentid', classid: 'myclassid', eventname: 'LevelCompletion', levelid: 4)  #=> TeacherGaming::Event object
+event.levelid                                                                                                               #=> 4
+event.create                                                                                                                #=> TeacherGaming::Response object
 ```
 
 Full object definitions are stored in lib/teacher_gaming/api_definitions/v\*.json files.
