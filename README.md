@@ -1,9 +1,5 @@
 # TeacherGaming
-TeacherGamingRuby is a Ruby wrapper for TeacherGaming's HTTP API. It dynamically generates API objects from json definitions in
-```bash
-lib/teacher_gaming/api_definitions
-```
-.
+TeacherGamingRuby is a Ruby wrapper for TeacherGaming's HTTP API. It dynamically generates API objects from json definitions in `lib/teacher_gaming/api_definitions`.
 
 ## Installation
 Add this line to your application's Gemfile:
