@@ -46,7 +46,7 @@
         "anonymous": "false",
         "type": "get",
         "path": "/update_state",
-        "params": [ "eventname", "classid", "sudentid", "duration" ]
+        "params": [ "eventname", "classid", "studentid", "duration" ]
       },
       "anonymous_create": {
         "anonymous": "true",
