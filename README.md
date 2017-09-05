@@ -18,11 +18,12 @@ Or install it yourself as:
 $ gem install teacher_gaming_ruby
 ```
 
-Then run
+
+Finally, run
 ```bash
 $ bundle exec teacher-gaming install
 ```
-. This will generate an initializer where you can set your API key and the desired API version (not really relevant right now since there's only one available version).
+This will generate an initializer where you can set your API key and the desired API version (not really relevant right now since there's only one available version).
 
 
 ## Usage
