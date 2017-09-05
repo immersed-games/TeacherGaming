@@ -49,5 +49,8 @@ Full object definitions are stored in lib/teacher_gaming/api_definitions/v\*.jso
 
 See TeacherGaming's HTTP documentation for more info [here](https://teachergaming.github.io/slate/#manual-integration-and-http-api7.).
 
+## Contributing
+If you wish to further develop this gem, clone the repo and copy `spec/dummy/config/secrets.example.yml` to `spec/dummy/config/secrets.yml`. Fill in the keys and ids with whatever you normally use to test with. The values can be accessed in your specs with `test_api_key`, `test_student_id`, and `test_class_id`.
+
 ## License
 The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
