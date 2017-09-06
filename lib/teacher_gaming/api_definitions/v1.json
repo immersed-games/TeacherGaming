@@ -1,3 +1,5 @@
+// TODO: params and type are currently unused. Use params for better validation?
+
 {
   "session": {
     "attributes": [ "studentid", "classid" ],
