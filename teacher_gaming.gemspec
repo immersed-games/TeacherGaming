@@ -5,7 +5,7 @@ require "teacher_gaming/version"
 
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
-  s.name        = "teacher_gaming_ruby"
+  s.name        = "teacher_gaming"
   s.version     = TeacherGaming::VERSION
   s.authors     = ["Jeremy Baker"]
   s.email       = ["jeremy@immersedgames.com"]

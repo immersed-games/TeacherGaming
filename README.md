@@ -5,7 +5,7 @@ TeacherGamingRuby is a Ruby wrapper for TeacherGaming's HTTP API. It dynamically
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'teacher_gaming_ruby'
+gem 'teacher_gaming'
 ```
 
 And then execute:
@@ -15,7 +15,7 @@ $ bundle
 
 Or install it yourself as:
 ```bash
-$ gem install teacher_gaming_ruby
+$ gem install teacher_gaming
 ```
 
 
