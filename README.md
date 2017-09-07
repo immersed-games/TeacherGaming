@@ -1,5 +1,5 @@
 # TeacherGaming
-TeacherGamingRuby is a Ruby wrapper for TeacherGaming's HTTP API. It dynamically generates API objects from json definitions in `lib/teacher_gaming/api_definitions`.
+TeacherGaming is an unofficial Ruby wrapper for TeacherGaming's HTTP API. It dynamically generates API objects from json definitions in `lib/teacher_gaming/api_definitions`.
 
 ## Installation
 Add this line to your application's Gemfile:
@@ -48,6 +48,11 @@ event.create                                                                    
 Full object definitions are stored in lib/teacher_gaming/api_definitions/v\*.json files.
 
 See TeacherGaming's HTTP documentation for more info [here](https://teachergaming.github.io/slate/#manual-integration-and-http-api7.).
+
+## Todo
+- Testing strategies to help catch and prevent typos in the json definition files
+- Implement the "type" attribute (HTTP request type, ie something other than just "get") for object method definitions
+- Turn the "params" attribute for object methods into "required_params" or something. Right now "params" isn't used anywhere.
 
 ## Contributing
 If you wish to further develop this gem, clone the repo and copy `spec/dummy/config/secrets.example.yml` to `spec/dummy/config/secrets.yml`. Fill in the keys and ids with whatever you normally use to test with. The values can be accessed in your specs with `test_api_key`, `test_student_id`, and `test_class_id`.
